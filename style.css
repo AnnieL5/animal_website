@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+li, a, button {
+  font-family: 'Garbriela';
+
+}
+
+header {
+  background: #fff4d9;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  padding: 10px;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 9px 40px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: #FAF6EA;
+  color: #6B5A7A;
+}
+
+button:hover {
+  background-color: #EFE2CF;
+  color: #2f2836;
+}
+
+#p1{
+    background-color: aquamarine;
+}
+#p2{
+    background-color: rgb(127, 255, 240);
+}
+#p3{
+    background-color: rgb(127, 255, 255);
+}
